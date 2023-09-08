@@ -32,7 +32,7 @@ const struct in_default_bind in_sdl_defbinds[] __attribute__((weak)) = {
 	{ SDLK_a,      IN_BINDTYPE_PLAYER12, GBTN_X },
 	{ SDLK_s,      IN_BINDTYPE_PLAYER12, GBTN_Y },
 	{ SDLK_d,      IN_BINDTYPE_PLAYER12, GBTN_Z },
-	{ SDLK_RETURN, IN_BINDTYPE_PLAYER12, GBTN_START },
+	{ SDLK_BACKSPACE, IN_BINDTYPE_PLAYER12, GBTN_START },
 	{ SDLK_f,      IN_BINDTYPE_PLAYER12, GBTN_MODE },
 	{ SDLK_ESCAPE, IN_BINDTYPE_EMU, PEVB_MENU },
 	{ SDLK_TAB,    IN_BINDTYPE_EMU, PEVB_RESET },
@@ -44,7 +44,7 @@ const struct in_default_bind in_sdl_defbinds[] __attribute__((weak)) = {
 	{ SDLK_F6,     IN_BINDTYPE_EMU, PEVB_PICO_PPREV },
 	{ SDLK_F7,     IN_BINDTYPE_EMU, PEVB_PICO_PNEXT },
 	{ SDLK_F8,     IN_BINDTYPE_EMU, PEVB_PICO_SWINP },
-	{ SDLK_BACKSPACE, IN_BINDTYPE_EMU, PEVB_FF },
+	{ SDLK_RETURN, IN_BINDTYPE_EMU, PEVB_FF },
 	{ 0, 0, 0 }
 };
 
