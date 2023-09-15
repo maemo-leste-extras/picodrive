@@ -20,7 +20,7 @@
 #ifdef PANDORA
 #define MENU_X2 1
 #else
-#define MENU_X2 0
+#define MENU_X2 1
 #endif
 
 // FIXME
