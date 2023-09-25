@@ -1,4 +1,4 @@
-TARGET ?= PicoDrive
+TARGET ?= picodrive
 CFLAGS += -Wall -g
 CFLAGS += -I.
 ifndef DEBUG
