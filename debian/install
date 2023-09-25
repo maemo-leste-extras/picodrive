@@ -1,0 +1,10 @@
+picodrive usr/games/picodrive
+platform/pandora/skin/background.png usr/games/picodrive/skin
+platform/pandora/skin/font.png usr/games/picodrive/skin
+platform/pandora/skin/selector.png usr/games/picodrive/skin
+platform/pandora/skin/readme.txt usr/games/picodriv/skin
+platform/pandora/skin/skin.txt usr/games/picodrive/skin
+config2.cfg home/user/.picodrive
+picodrive.sh usr/games
+platform/pandora/PicoDrive.png usr/share/icons/hicolor/64x64/apps
+picodrive.desktop usr/share/applications/hildon
