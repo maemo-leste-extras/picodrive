@@ -42,6 +42,7 @@ install: build
 	mkdir -p "$(CURDIR)"/debian/picodrive/home/user/.picodrive
 	chmod 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive
 	chown user "$(CURDIR)"/debian/picodrive/home/user/.picodrive
+	chmod 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive/config2.cfg
 	dh_install
 
 binary-indep: build install
