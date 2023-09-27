@@ -35,6 +35,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_installdirs
+	mkdir -p "$(CURDIR)"/debian/picodrive/usr/games/picodrive
 	mkdir -p "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
 	chmod 777 "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
 	chown user "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
