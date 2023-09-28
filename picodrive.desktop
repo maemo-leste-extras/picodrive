@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=picodrive
+GenericName=picodrive
+Exec=picodrive.sh
+Icon=/usr/share/icons/hicolor/64x64/apps/PicoDrive.png
+Terminal=false
+Type=Application
+X-Osso-Type=application/x-executable
