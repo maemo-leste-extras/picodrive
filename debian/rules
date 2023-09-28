@@ -37,13 +37,13 @@ install: build
 	dh_installdirs
 	mkdir -p "$(CURDIR)"/debian/picodrive/usr/games/picodrive
 	mkdir -p "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
-	chmod 777 "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
+	chmod -R 644 "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
 	chown user "$(CURDIR)"/debian/picodrive/usr/games/picodrive/skin
-	chmod 777 "$(CURDIR)"/debian/picodrive/usr/games/
+	chmod -R 644 "$(CURDIR)"/debian/picodrive/usr/games/
 	mkdir -p "$(CURDIR)"/debian/picodrive/home/user/.picodrive
-	chmod 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive
+	chmod -R 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive
 	chown user "$(CURDIR)"/debian/picodrive/home/user/.picodrive
-	chmod 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive/config2.cfg
+	#chmod 777 "$(CURDIR)"/debian/picodrive/home/user/.picodrive/config2.cfg
 	dh_install
 
 binary-indep: build install
