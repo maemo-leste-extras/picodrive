@@ -8,5 +8,6 @@ Standards-Version: 1.92.3+leste1
 Package: picodrive
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Megadrive MegaCD 32X Emulator
+Description: Megadrive MegaCD 32X Emulator.
+ This application requires a physical keyboard to work properly.
 
