@@ -586,13 +586,13 @@ void emu_prep_defconfig(void)
 	defaultConfig.s_PicoAutoRgnOrder = 0x184; // US, EU, JP
 	defaultConfig.s_PicoCDBuffers = 0;
 	defaultConfig.confirm_save = EOPT_CONFIRM_SAVE;
-	defaultConfig.Frameskip = -1; // auto
+	defaultConfig.Frameskip = 1; // -1 auto
 	defaultConfig.input_dev0 = PICO_INPUT_PAD_3BTN;
 	defaultConfig.input_dev1 = PICO_INPUT_PAD_3BTN;
 	defaultConfig.volume = 50;
 	defaultConfig.gamma = 100;
 	defaultConfig.scaling = 0;
-	defaultConfig.turbo_rate = 15;
+	defaultConfig.turbo_rate = 30; // affects sdl input
 	defaultConfig.msh2_khz = PICO_MSH2_HZ / 1000;
 	defaultConfig.ssh2_khz = PICO_SSH2_HZ / 1000;
 
