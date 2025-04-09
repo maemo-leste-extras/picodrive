@@ -42,7 +42,7 @@ check_define()
 platform_list="generic pandora gph dingux retrofw opendingux[-gcw0] odbeta[-gcw0] miyoo rpi1 rpi2 ps2 psp win32"
 platform="generic"
 sound_driver_list="oss alsa sdl"
-sound_drivers=""
+sound_drivers="sdl"
 have_armv5=""
 have_armv6=""
 have_armv7=""
@@ -50,8 +50,8 @@ have_arm_oabi=""
 have_arm_neon=""
 have_libavcodec=""
 have_libchdr=""
-have_gles="no"
-need_sdl="no"
+have_gles="yes"
+need_sdl=""
 need_zlib="no"
 
 # hardcoded stuff
@@ -86,6 +86,8 @@ set_platform()
     ;;
   generic)
     MFLAGS=""
+    sound_drivers="sdl"
+    have_gles="yes"
     ;;
   dingux)
     # dingoo a320, ritmix rzx-50, the like. all have Ingenic MIPS cpu <= JZ4755
