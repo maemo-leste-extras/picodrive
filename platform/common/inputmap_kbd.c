@@ -18,7 +18,7 @@ const struct in_default_bind _in_sdl_defbinds[] = {
 	{ SDLK_a,      IN_BINDTYPE_PLAYER12, GBTN_X },
 	{ SDLK_s,      IN_BINDTYPE_PLAYER12, GBTN_Y },
 	{ SDLK_d,      IN_BINDTYPE_PLAYER12, GBTN_Z },
-	{ SDLK_RETURN, IN_BINDTYPE_PLAYER12, GBTN_START },
+	{ SDLK_BACKSPACE, IN_BINDTYPE_PLAYER12, GBTN_START },
 	{ SDLK_f,      IN_BINDTYPE_PLAYER12, GBTN_MODE },
 	{ SDLK_ESCAPE, IN_BINDTYPE_EMU, PEVB_MENU },
 	{ SDLK_TAB,    IN_BINDTYPE_EMU, PEVB_RESET },
@@ -33,7 +33,7 @@ const struct in_default_bind _in_sdl_defbinds[] = {
 	{ SDLK_F9,     IN_BINDTYPE_EMU, PEVB_PICO_PAD },
 	{ SDLK_F10,    IN_BINDTYPE_EMU, PEVB_GRAB_INPUT },
 	{ SDLK_F12,    IN_BINDTYPE_EMU, PEVB_SWITCH_KBD },
-	{ SDLK_BACKSPACE, IN_BINDTYPE_EMU, PEVB_FF },
+	{ SDLK_RETURN, IN_BINDTYPE_EMU, PEVB_FF },
 
 	{ 0, 0, 0 }
 };
@@ -136,12 +136,12 @@ const struct menu_keymap _in_sdl_key_map[] = {
 	{ SDLK_DOWN,	PBTN_DOWN },
 	{ SDLK_LEFT,	PBTN_LEFT },
 	{ SDLK_RIGHT,	PBTN_RIGHT },
-	{ SDLK_RETURN,	PBTN_MOK },
-	{ SDLK_ESCAPE,	PBTN_MBACK },
-	{ SDLK_COMMA,	PBTN_MA2 },
-	{ SDLK_PERIOD,	PBTN_MA3 },
+	{ SDLK_BACKSPACE,	PBTN_MOK },
+	{ SDLK_e,	PBTN_MBACK },
+	{ SDLK_r,	PBTN_MA2 },
+	{ SDLK_t,	PBTN_MA3 },
 	{ SDLK_TAB,	PBTN_R },
-	{ SDLK_BACKSPACE, PBTN_L },
+	{ SDLK_RETURN, PBTN_L },
 };
 const int in_sdl_key_map_sz = sizeof(_in_sdl_key_map) / sizeof(_in_sdl_key_map[0]);
 const struct menu_keymap *in_sdl_key_map = _in_sdl_key_map;
