@@ -24,7 +24,7 @@
 #if defined(PANDORA) || defined(__PS2__)
 #define MENU_X2 1
 #else
-#define MENU_X2 0
+#define MENU_X2 1
 #endif
 
 #define COL_ROM PXMAKE(0xbf, 0xbf, 0xff)
