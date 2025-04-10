@@ -1,0 +1,13 @@
+Source: picodrive
+Section: user/games
+Priority: extra
+Maintainer: Arno11 <arno11-n900@outlook.com>
+Build-Depends: debhelper (>= 10), libc6, libpng16-16, libsdl1.2-dev, zlib1g, zip
+Standards-Version: 4.3.0
+
+Package: picodrive
+Architecture: any
+Depends: ${shlibs:Depends}, libsdl1.2debian
+Description: Megadrive MegaCD 32X Emulator.
+ This application requires a physical keyboard to work properly.
+
