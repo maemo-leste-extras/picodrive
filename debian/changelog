@@ -1,3 +1,9 @@
+picodrive (2.20.0+leste1) unstable; urgency=low
+
+  * Excalibur first build (t64 fix and workflows fix).
+
+ -- Arno11 <arno11-n900@outlook.com>  Fri, 27 Mar 2026 17:32:34 +0200
+
 picodrive (1.93.0+leste1) unstable; urgency=low
 
   * First Daedalus version rebased on last notaz work
