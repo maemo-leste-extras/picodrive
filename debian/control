@@ -7,7 +7,7 @@ Standards-Version: 4.3.0
 
 Package: picodrive
 Architecture: any
-Depends: ${shlibs:Depends}, libsdl1.2debian, libgles1, libgles2
+Depends: ${shlibs:Depends}
 Description: Megadrive MegaCD 32X Emulator.
  This application requires a physical keyboard to work properly.
 
