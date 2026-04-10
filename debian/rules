@@ -26,10 +26,9 @@ build-stamp:
 
 clean:
 	dh_testdir
-	dh_testroot
+    $(MAKE) clean
 	rm -f build-stamp
 	dh_clean
-	$(MAKE) clean
 
 install: build
 	dh_testdir
