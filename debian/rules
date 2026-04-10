@@ -26,7 +26,7 @@ build-stamp:
 
 clean:
 	dh_testdir
-    $(MAKE) clean
+	$(MAKE) clean
 	rm -f build-stamp
 	dh_clean
 
